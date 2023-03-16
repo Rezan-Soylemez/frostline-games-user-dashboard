@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.header {
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 5%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    height: 100%;
+    width: 100%;
+}
+.nextui-c-fdHeMm-iizPHCF-css {
+    padding-left: 0; 
+    padding-right: 0; 
+    flex-wrap: wrap;
+    display: block;
+}
+.nextui-c-egxOLa {
+    background: #ffffff00;
+}
+.ux-shape-divider svg {
+    display: block;
+    position: relative;
+}
+.ux-shape-divider {
+    --divider-top-width: 100%;
+    --divider-width: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.ux-shape-divider .ux-shape-fill {
+    fill: #fff;
+}
+.ux-shape-divider svg {
+    display: block;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+}
+
+.ux-shape-divider--bottom {
+    bottom: -1px;
+}
+
+.ux-shape-divider svg {
+    display: block;
+    position: relative;
+}
+
+.ux-shape-divider--bottom svg {
+    width: calc(var(--divider-width) + 2px);
+}
+
+#section_1001436636 .ux-shape-divider--bottom svg {
+    height: 100%;
+    width: 100%;
+    --divider-width: 100%;
+}
